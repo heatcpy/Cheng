@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/windows"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_ledon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:background="@drawable/btn_cycle"
+        android:onClick="LedOnOffCtrol"
+        android:textSize="50sp"
+        android:text="开灯" />
+
+</RelativeLayout>

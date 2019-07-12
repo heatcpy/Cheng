@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/windows"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_scancode"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/blue"
+        android:text="扫描二维码添加设备"
+        android:textSize="25sp" />
+
+    <com.covics.zxingscanner.ScannerView
+        android:id="@+id/scanner_view"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/tv_scancode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" >
+    </com.covics.zxingscanner.ScannerView>
+    
+</RelativeLayout>
